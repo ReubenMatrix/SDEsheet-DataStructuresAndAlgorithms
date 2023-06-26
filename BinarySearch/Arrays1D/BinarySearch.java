@@ -37,6 +37,6 @@ public class BinarySearch {
            return RecursiveBinarySearch(arr,mid+1,high,target);
         }
         return RecursiveBinarySearch(arr,low,mid-1,target);
-
     }
+    //Time Complexity:O(logN)
 }
