@@ -26,5 +26,6 @@ public class BinarySearchIn2D {
             }
             return false;
     }
+    //Time Complexity:O(logN*M)
 }
 
