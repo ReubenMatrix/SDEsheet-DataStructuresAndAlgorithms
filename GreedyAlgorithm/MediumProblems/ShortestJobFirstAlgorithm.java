@@ -30,9 +30,7 @@ public class ShortestJobFirstAlgorithm {
         for (int i = 0; i <n ; i++) {
             TotalWaitingTime+=WaitingTime;
             WaitingTime+=SortedBurstTime[i];
-            System.out.print(WaitingTime);
-            System.out.print("\t\t\t\t");
-            System.out.print(SortedBurstTime[i]);
+            System.out.print(WaitingTime+"\t\t\t\t"+SortedBurstTime[i]);
             System.out.println();
         }
 
