@@ -1,5 +1,13 @@
 package Arrays.EasyProblems;
 
+/*
+ Given an array, we have to find the largest element in the array.
+
+ Example :
+Input: arr[] = {2,5,1,3,0};
+Output: 5
+*/
+
 import java.util.Arrays;
 
 public class LargestElementInArray {
