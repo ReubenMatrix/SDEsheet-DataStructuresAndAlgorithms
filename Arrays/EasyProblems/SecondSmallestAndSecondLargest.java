@@ -1,5 +1,14 @@
 package Arrays.EasyProblems;
 
+/*
+Given an array, find the second smallest and second largest element in the array. Print ‘-1’ in the event that either of them doesn’t exist.
+
+Example:
+Input: [1,2,4,7,7,5]
+Output: Second Smallest : 2
+	    Second Largest : 5
+*/
+
 import java.util.Arrays;
 
 public class SecondSmallestAndSecondLargest {
