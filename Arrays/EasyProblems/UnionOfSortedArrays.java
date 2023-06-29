@@ -1,5 +1,17 @@
 package Arrays.EasyProblems;
 
+/*
+Given two sorted arrays, arr1, and arr2 of size n and m. Find the union of two sorted arrays.
+The union of two arrays can be defined as the common and distinct elements in the two arrays.
+
+Example 1:
+Input:
+n = 5,m = 5.
+arr1[] = {1,2,3,4,5}  
+arr2[] = {2,3,4,4,5}
+Output: {1,2,3,4,5}
+*/
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -30,9 +42,6 @@ public class UnionOfSortedArrays {
         int[] set2={5, 7, 8, 9, 9};
         ArrayList<Integer>unity=OptimalSolution(set1,set2);
         System.out.println("Union Of Two Arrays: "+unity);
-
-
-
     }
 
     static ArrayList<Integer> BruteSolution(int[] arr1, int[] arr2){
