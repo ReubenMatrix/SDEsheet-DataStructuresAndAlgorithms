@@ -1,5 +1,13 @@
 package Arrays.EasyProblems;
 
+/*
+Given an array of N integers, left rotate the array by one place.
+
+Example :
+Input: N = 5, array[] = {1,2,3,4,5}
+Output: 2,3,4,5,1
+*/
+
 public class LeftRotateArrayByOne {
     public static void main(String[] args) {
         int[] arr={1, 4, 2, 7, 9};
