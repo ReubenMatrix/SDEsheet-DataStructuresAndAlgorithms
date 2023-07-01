@@ -26,5 +26,7 @@ public class Jump1 {
         }
         return lastpos==0;
     }
+    //Time Complexity:O(N)
+    //Space Complexity:O(1)
 
 }
